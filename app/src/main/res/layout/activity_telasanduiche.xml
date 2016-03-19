@@ -65,22 +65,9 @@
             android:id="@+id/xtudo"
             />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:id="@+id/finalizarCompra"
-            android:text="FINALIZAR COMPRA"/>
 
 
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/TelaCarrinho"
-            android:textSize="45dp"
-            android:layout_centerHorizontal="true"
-            />
+
     </LinearLayout>
 </RelativeLayout>

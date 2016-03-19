@@ -64,12 +64,7 @@
             android:id="@+id/PizzaTudao"
             />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/activity_horizontal_margin"
-            android:id="@+id/finalizarCompra"
-            android:text="FINALIZAR COMPRA"/>
+
 
     </LinearLayout>
 

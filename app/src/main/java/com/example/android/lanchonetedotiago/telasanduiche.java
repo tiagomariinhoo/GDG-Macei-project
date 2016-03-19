@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.TextView;
 
 public class telasanduiche extends AppCompatActivity {
     int carrinho=0;
@@ -32,32 +31,8 @@ public class telasanduiche extends AppCompatActivity {
 
     }
 
-    public void onCheckboxClicked(View view) {
-        // Is the view now checked?
-        boolean checked = ((CheckBox) view).isChecked();
 
-        // Check which checkbox was clicked
-        switch(view.getId()) {
-            case R.id.SandubaCarne:
-                if (checked)
-                carrinho=carrinho+10;
-                TelaDoCarro(carrinho=carrinho+10);
 
-                // Remove the meat
-                break;
-            case R.id.SandubaFrango:
-                if (checked)
-                carrinho=carrinho+10;
-                else
-                // I'm lactose intolerant
-                break;
-            // TODO: Veggie sandwich
-        }
-    }
-    public void TelaDoCarro(int score) {
-        TextView scoreView = (TextView) findViewById(R.id.TelaCarrinho);
-        scoreView.setText(String.valueOf(score));
-    }
 
 
     public class MyActivity extends Activity {

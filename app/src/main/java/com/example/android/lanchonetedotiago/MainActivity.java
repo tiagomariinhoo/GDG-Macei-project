@@ -4,9 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+int cliente=0;
 
   //  Button sanduba = (Button) findViewById(R.id.sanduba);
 
@@ -36,6 +37,16 @@ public class MainActivity extends AppCompatActivity {
     public void pastel (View v) {
         Intent it = new Intent(MainActivity.this, telapastel.class);
         startActivity(it);
+    }
+    public void Positivo (View v) {
+        cliente=cliente+1;
+        Tela(cliente + 1);
+    }
+
+
+    public void Tela(int score) {
+        TextView scoreView = (TextView) findViewById(R.id.Numero);
+        scoreView.setText(String.valueOf(score));
     }
 
 
