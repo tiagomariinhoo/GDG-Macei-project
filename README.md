@@ -1,5 +1,5 @@
 # GDG-Macei-project
-My app
+My app (LanchoneteDoTiago)
 
 Aplicativo de lanchonete. Contendo um cardápio e um contador de clientes.
 
